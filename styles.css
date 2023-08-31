@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
 *{
   padding: 0;
   margin: 0;
@@ -25,25 +28,32 @@ nav{
   position: static;
   color:white;
   font-size: 30px;
+  font-family: 'Black Ops One', cursive;
+
 }
 span{
   position: relative;
   color: darkorange;
+  font-family: 'Black Ops One', cursive;
 }
 nav ul li{
   position: relative;
   list-style-type: none;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 10px;
+  font-family: 'Handjet', cursive;
+  font-size: 25px;
 }
 nav ul li a{
   color:white;
   font-weight: bold;
   text-decoration: none;
+  font-family: 'Handjet', cursive;
 }
 nav ul li a:hover{
   color:orange;
   transition: 800ms;
+  font-family: 'Handjet', cursive;
 }
 button{
   border:none;
@@ -52,14 +62,18 @@ button{
   border-radius: 30px;
   color: white;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 20px;
   transition: 500ms;
+  font-family: 'Sedgwick Ave Display', cursive;
+
 }
 button:hover{
   transform: scale(1.11);
   cursor: cell;
+  font-family: 'Sedgwick Ave Display', cursive;
 }
 button a{
   text-decoration: none;
   color: aliceblue;
+  font-family: 'Sedgwick Ave Display', cursive;
 }
